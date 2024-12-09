@@ -1,0 +1,6 @@
+.image-block {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("./pode-nao-man.png") no-repeat;
+}

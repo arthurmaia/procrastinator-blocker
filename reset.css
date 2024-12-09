@@ -1,0 +1,83 @@
+/* reset.css */
+
+/* Remover margens, paddings e bordas */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Remover estilos padrão de blockquote, body, figure, h1, h2, h3, h4, h5, h6, p, pre */
+blockquote,
+body,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* Definir largura e altura base */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+/* Remover listas padrão */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remover sublinhados e estilizações padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Garantir que tabelas não tenham espaçamentos */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remover estilizações de inputs, selects e buttons */
+input,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  appearance: none;
+  outline: none;
+}
+
+/* Remover estilização padrão de imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Definir uma estilização base para strong e b */
+strong,
+b {
+  font-weight: bold;
+}
